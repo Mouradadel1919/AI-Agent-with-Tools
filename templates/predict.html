@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">AI Agent</h2>
+
+    <!-- Input Form -->
+    <form method="post" action="/predict" class="mb-4">
+        <div class="mb-3">
+            <label for="user_input" class="form-label">Enter your question:</label>
+            <textarea id="user_input" name="user_input" class="form-control" rows="3" required>{{ user_input or "" }}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Run Agent</button>
+    </form>
+
+    <!-- Results -->
+    {% if output %}
+    <div class="card shadow-sm p-3 mt-4">
+        <h5 class="card-title">🔎 Agent Output</h5>
+        <p><strong>Context Judge:</strong> {{ judge }}</p>
+        <p><strong>Context Splitted:</strong> {{ context }}</p>
+        <p><strong>Context relevance:</strong> {{ relevance }}</p>
+        <p><strong>Web Search:</strong> {{ search }}</p>
+        <p><strong>Final Answer:</strong> {{ output }}</p>
+    </div>
+    {% endif %}
+</div>
+
+{% endblock %}

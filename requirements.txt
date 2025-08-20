@@ -1,0 +1,7 @@
+fastapi==0.116.1
+langchain>=0.1.0  # Let pip find the latest compatible version
+langsmith>=0.3.45  # Required by newer langchain-core
+langchain_ollama==0.3.6
+jinja2>=3.0.0  # Required for Jinja2Templates in FastAPI
+python-multipart>=0.0.6  # Required for FastAPI form parsing
+uvicorn>=0.29.0

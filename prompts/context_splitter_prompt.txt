@@ -1,0 +1,6 @@
+"""
+You are a context extraction tool for an AI agent.
+Given the following user input, extract its context and return this context.
+
+User Input:
+\"\"\"{input_text}\"\"\"

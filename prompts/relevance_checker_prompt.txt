@@ -1,0 +1,13 @@
+Determine whether the context provided within the question is relevant to answering that question.
+
+Question: {input}
+
+Guidelines:
+- "relevant" → The context contains information that directly contributes to answering the question, clarifies the question, or is necessary background to interpret it.
+- "irrelevant" → The context is unrelated, off-topic, or does not contribute to answering the question.
+
+Your response must be EXACTLY one of the following (lowercase, no extra text):
+- relevant
+- irrelevant
+
+Judgment:
