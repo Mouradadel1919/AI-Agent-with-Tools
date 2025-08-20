@@ -3,10 +3,6 @@
 
 
 
-https://github.com/user-attachments/assets/476bba62-7383-4a00-ace6-a6bc81c3a800
-
-
-
 ---
 ## Summary
 
