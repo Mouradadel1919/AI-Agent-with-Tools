@@ -4,6 +4,19 @@ This project is an **end-to-end AI Agent** powered by **Llama 3 (8B)** running l
 The agent is designed with **4 specialized tools** that enhance its ability to understand and process user queries intelligently.  
 It is deployed via **FastAPI** and packaged into a **Docker image** so anyone can run it easily.
 
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/7c51f6fa-06fc-4f1e-b4bb-9a353cd08ec9
+
+
+
+
+
 ---
 
 ## Features
