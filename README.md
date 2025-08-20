@@ -38,4 +38,4 @@ docker run -d -p 8080:8080 mouradadel313/ai_agent_with_tools:latest
 ```
 ## Click 
 
-<img width="1593" height="570" alt="Capture" src="https://github.com/user-attachments/assets/20d6005d-928c-43fb-a8b4-76ead7e2d2e5" />
+<img width="1430" height="513" alt="Capture" src="https://github.com/user-attachments/assets/0b6830af-8479-4ff0-8c66-bb0215b6afff" />
