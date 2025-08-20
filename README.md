@@ -37,4 +37,5 @@ docker pull mouradadel313/ai_agent_with_tools:latest
 docker run -d -p 8080:8080 mouradadel313/ai_agent_with_tools:latest
 ```
 # 3. Click 
-<img width="1593" height="570" alt="Capture" src="https://github.com/user-attachments/assets/54728081-fd4d-48ed-916b-9e9cc1ec134d" />
+
+<img width="1593" height="570" alt="Capture" src="https://github.com/user-attachments/assets/20d6005d-928c-43fb-a8b4-76ead7e2d2e5" />
